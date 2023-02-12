@@ -3,10 +3,7 @@ import { render } from "solid-js/web";
 
 import "./index.css";
 import App from "./App";
-import {
-  QueryClient,
-  QueryClientProvider,
-} from "../../../../Workspace/solid-lib-starter/src";
+import { QueryClient, QueryClientProvider } from "@adeora/solid-query";
 
 const client = new QueryClient();
 

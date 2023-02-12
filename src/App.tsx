@@ -10,7 +10,7 @@ import {
 import logo from "./logo.svg";
 import styles from "./App.module.css";
 import { createSignal } from "solid-js";
-import { createQuery } from "../../../../Workspace/solid-lib-starter/src";
+import { createQuery } from "@adeora/solid-query";
 
 const App: Component = () => {
   return (
